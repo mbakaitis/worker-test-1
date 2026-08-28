@@ -6,6 +6,6 @@ describe("Worker", () => {
     const response = await exports.default.fetch("https://example.com/health");
 
     expect(response.status).toBe(200);
-    expect(await response.text()).toBe("OK");
+    expect(await response.text()).toBe("Hi there Matt!");
   });
 });
