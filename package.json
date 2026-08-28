@@ -1,7 +1,7 @@
 {
-  "name": "cloudflare-workers-template",
+  "name": "worker-test-1",
   "version": "0.2.1",
-  "description": "Forkable boilerplate for Cloudflare Workers projects",
+  "description": "Demo of the workers template as a working repo and worker",
   "private": true,
   "keywords": [
     "cloudflare",

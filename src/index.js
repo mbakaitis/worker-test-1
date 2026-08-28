@@ -12,6 +12,6 @@ export default {
    * @returns {Response}
    */
   fetch() {
-    return new Response("OK");
+    return new Response("Hi there Matt!");
   },
 };

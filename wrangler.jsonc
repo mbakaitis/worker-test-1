@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "cloudflare-workers-template",
+  "name": "worker-test-1",
   "main": "src/index.js",
   "compatibility_date": "2026-08-18",
   "observability": {
@@ -8,10 +8,10 @@
   },
   "env": {
     "non-prod": {
-      "name": "cloudflare-workers-template-non-prod"
+      "name": "worker-test-1-non-prod"
     },
     "production": {
-      "name": "cloudflare-workers-template-production"
+      "name": "worker-test-1-production"
     }
   }
 }
